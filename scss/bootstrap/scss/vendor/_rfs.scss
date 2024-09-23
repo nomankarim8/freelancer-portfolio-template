@@ -9,7 +9,7 @@ $rfs-breakpoint-unit: px !default;
 
 $rfs-two-dimensional: false !default;
 
-// Factor of decrease
+
 $rfs-factor: 10 !default;
 
 @if type-of($rfs-factor) != "number" or $rfs-factor <= 1 {
