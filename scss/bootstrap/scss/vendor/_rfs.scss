@@ -39,7 +39,6 @@ $rfs-base-font-size-unit: unit($rfs-base-font-size);
   $rfs-base-font-size: $rfs-base-font-size / ($rfs-base-font-size * 0 + 1 / $rfs-rem-value);
 }
 
-// Cache $rfs-breakpoint unit to prevent multiple calls
 $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
 
 // Remove unit from $rfs-breakpoint for calculations
